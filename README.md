@@ -25,4 +25,6 @@ A discord bot that will save your text to https://www.notebin.cf
 
 2. Notebin api - https://notebin.cf/api 
 
-![](https://notebin.cf/media/logo.png)
+
+
+                                                    ![](https://notebin.cf/media/logo.png)
