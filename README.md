@@ -27,4 +27,6 @@ A discord bot that will save your text to https://www.notebin.cf
 
 
 
-![](https://notebin.cf/media/logo.png)
+<p align="center">
+  <img src="https://notebin.cf/media/logo.png" />
+</p>
