@@ -1,4 +1,4 @@
-# notebin-bot
+# Notebin Bot
 A discord bot that will save your text to https://www.notebin.cf
 
 # Requirements for self hosting
@@ -14,3 +14,15 @@ A discord bot that will save your text to https://www.notebin.cf
 3. Run the command `npm install` to install all dependencies
 
 4. Run the project using node index.js
+
+# Credits
+
+- No crediting or anything is required, feel free to copy or do anything with this code its completely free.
+
+# Links
+
+1. Notebin - https://notebin.cf
+
+2. Notebin api - https://notebin.cf/api 
+
+![](https://notebin.cf/media/logo.png)
