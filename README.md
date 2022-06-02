@@ -26,8 +26,3 @@
 4. Run the project using node index.js
 5. Wanna deploy this easily? click the "Deploy on Railway" button.
 
-
-<br>
-<p align="center">
-  <img src="https://notebin.cf/media/logo.png" />
-</p>
