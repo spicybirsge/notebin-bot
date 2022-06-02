@@ -1,6 +1,8 @@
 # Notebin Bot
 A discord bot that will save your text to https://www.notebin.cf
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/3NbRXM?referralCode=HN1He9)
+
 # Requirements for self hosting
 
 - Node v16. 6.0 or higher
@@ -15,6 +17,8 @@ A discord bot that will save your text to https://www.notebin.cf
 
 4. Run the project using node index.js
 
+5. Wanna deploy this easily? click the "Deploy on Railway" button.
+
 # Credits
 
 - No crediting or anything is required, feel free to copy or do anything with this code its completely free.
@@ -24,6 +28,8 @@ A discord bot that will save your text to https://www.notebin.cf
 1. Notebin - https://notebin.cf
 
 2. Notebin api - https://notebin.cf/api 
+
+3. Notebin src - https://github.com/spicybirsge/notebin
 
 
 <br>
