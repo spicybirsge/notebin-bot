@@ -1,5 +1,6 @@
 # Notebin Bot
 - A discord bot that will save your text to https://www.notebin.cf
+- Link: [click here](https://discord.com/api/oauth2/authorize?client_id=970763345529548821&permissions=0&scope=bot)
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/3NbRXM?referralCode=HN1He9)
 
