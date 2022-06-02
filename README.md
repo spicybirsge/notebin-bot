@@ -3,6 +3,16 @@
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/3NbRXM?referralCode=HN1He9)
 
+# Credits
+
+- No crediting or anything is required, feel free to copy or do anything with this code its completely free.
+
+# Links
+
+1. Notebin - https://notebin.cf
+2. Notebin api - https://notebin.cf/api 
+3. Notebin src - https://github.com/spicybirsge/notebin
+
 # Requirements for self hosting
 
 - Node v16. 6.0 or higher
@@ -14,16 +24,6 @@
 3. Run the command `npm install` to install all dependencies
 4. Run the project using node index.js
 5. Wanna deploy this easily? click the "Deploy on Railway" button.
-
-# Credits
-
-- No crediting or anything is required, feel free to copy or do anything with this code its completely free.
-
-# Links
-
-1. Notebin - https://notebin.cf
-2. Notebin api - https://notebin.cf/api 
-3. Notebin src - https://github.com/spicybirsge/notebin
 
 
 <br>
