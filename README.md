@@ -1,5 +1,6 @@
 # Notebin Bot
 - A discord bot that will save your text to https://www.notebin.cf
+
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/3NbRXM?referralCode=HN1He9)
 
 # Requirements for self hosting
