@@ -32,7 +32,7 @@ client.on("messageCreate", async (message) => {
 
   const text = args.join(" ")
     if(!text) return message.channel.send("Please provide a text.")
-    const create = await fetch('https://www.notebin.cf/api/create', {
+    const create = await fetch('https://notebin.cyclic.app/api/create', {
       method: 'POST',
       body: JSON.stringify({text: text}),
         headers: {
