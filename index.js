@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const ms = require('pretty-ms')
 app.get('/', (req , res) => {
   res.send("ok")
 })
@@ -26,6 +27,18 @@ client.on("ready", () => {
 })
 
 client.on("messageCreate", async (message) => {
+  if(message.author.bot) return;
+   if(message.content.toLowerCase() === ".ping") {
+      const l = await message.channel.send('Pinging...')
+      const ping = l.createdTimestamp - message.createdTimestamp
+      await l.edit(`Pong! (Websocket: ${client.ws.ping}ms. Roundtrip: ${ping}ms.)`)
+    }
+    if(message.content.toLowerCase() === ".uptime") {
+  return message.channel.send(`I have been running for: ${ms(client.uptime)}`)
+    }
+  if(message.content.toLowerCase() === ".help") {
+    return message.channel.send("**Commands**\n `.ping`, `.uptime`, `.help`, `.codebin`")
+  }
   
     const args = message.content.split(" ").slice(1)
   if(message.content.toLocaleLowerCase().startsWith(".codebin")) {
