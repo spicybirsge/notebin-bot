@@ -45,6 +45,8 @@ client.on("messageCreate", async (message) => {
 
   const text = args.join(" ")
     if(!text) return message.channel.send("Please provide a text.")
+
+    try {
     const create = await fetch('https://notebin.cf/api/create', {
       method: 'POST',
       body: JSON.stringify({text: text}),
@@ -58,7 +60,12 @@ client.on("messageCreate", async (message) => {
       message.channel.send(`Something went wrong!`)
         return console.log(JSON.stringify(data.error[0].msg) || data)
     }
-})
+      })
+      } catch(e) {
+      console.log(e) 
+      message.channel.send("Error Occured")
+    }
+
   }
 })
 client.login(process.env.token)
